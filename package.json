@@ -1,0 +1,16 @@
+{
+  "name": "merkle-proof-generator",
+  "version": "1.0.0",
+  "description": "Easily generate merkle tree and proof",
+  "scripts": {
+    "gen-accounts": "node ./generateAccounts.js",
+    "gen-proof": "node ./generateProof.js"
+  },
+  "author": "Pure-Peace",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.6.7",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.31"
+  }
+}
